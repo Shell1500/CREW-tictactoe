@@ -151,7 +151,10 @@ while not done:
     if board_check(board) == 2:
         game_over('Circle Wins')
         done = True
-            
+    
+    if len(box_status) == 9:
+        game_over('Game DRAW')
+        done = True 
     pygame.display.update()
     time.sleep(0.05)
 
