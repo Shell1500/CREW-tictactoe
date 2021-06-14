@@ -8,7 +8,7 @@ pygame.init()
 screen = pygame.display.set_mode((display_width , display_height))
 pygame.display.set_caption("Tic Tac Toe")
 
-font = pygame.font.Font('C:\\Windows\\Fonts\CALIBRI.TTF', 60)
+font = pygame.font.SysFont('Ariel', 60)
 cross_image = pygame.image.load("cross.png")
 circle_image = pygame.image.load("circle.png")
 
